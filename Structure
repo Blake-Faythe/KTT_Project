@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Une structure de base pour le site, à modifier ultérieurement -->
+
+	<head>
+      
+		<title>Titre</title>	
+ 			</br></br>
+	</head>
+ 
+
+ 
+ 	<body>
+
+		<h1>1ère section</h1>
+			<p>Paragraphe</p>
+		
+				</br>
+			
+		<h2>2ème section</h2>
+			<p>Paragraphe</p>
+		
+				</br>
+			
+		<h3>3ème section</h3>
+			<p>Paragraphe</p>
+		
+			<table class='type1>
+				<tr>
+					<th>Intitulé 1</th>
+					<th>Intutulé 2</th>
+				</tr>
+			
+				<tr>
+					<td>Valeur première colonne</td>
+					<td>Valeur deuxième colonne</td>
+				</tr>
+			</table>
+		
+				</br>
+		</body>
+		
+</html>
+			
+		
+				
+				
+		
+		
