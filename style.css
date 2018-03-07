@@ -1,0 +1,35 @@
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  border-bottom-style: solid;
+  border-width: 0 0 10px 0;
+  border-bottom-color: green;
+
+}
+
+.nav{
+  width: 100%;
+  height: 20px;
+  background-color: black;
+}
+
+.logo{
+  position:absolute;
+  top:10px;
+  left:20px;
+  width: 20%;
+}
+
+.marque{
+  position: absolute;
+  top:60px;
+  left:100px;
+  width : 80%;
+  font-size: 2em;
+  color : #81D742;
+  font-family: arial ;
+}
+/*#element {
+   background:url(/projet/images/koala.jpg) no-repeat;
+ }*/
