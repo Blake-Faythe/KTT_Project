@@ -1,3 +1,5 @@
+/******* HEADER A LOGO *******/
+
 .header {
   width: 100%;
   height: 100px;
@@ -30,6 +32,62 @@
   color : #81D742;
   font-family: arial ;
 }
+
+
+/******* FICHES PRODUITS *******/
+.tableau_produits{
+	align:center;
+	margin: 50px;
+	padding : 20px;
+	text-align:center;
+}
+
+.boite_pdt{
+	border : 3 px black;
+	display : block;
+	margin-left : 50 px;
+	margin-right : 20 px;
+	margin-bottom : 100 px;
+	padding : 15 px;
+	text-align : center;
+	align:center;
+	position : relative;
+	float : left;
+	white-space:nowrap;
+	left : 3em;
+}
+
+.description{
+	text-align: center;
+	font-size: 10 px;
+	color: blue
+}
+
+.img_produit{
+		align: center;
+		border: 2px solid gray;
+		display:block;	
+}
+
+/******* BACKGROUND *******/
+
+.degrade{
+    background-image: linear-gradient(#CEEA82, #FFFFFF);
+    height: 2000px;
+}
+
+/*.section{
+	-webkit-columns: 4 100px;
+    -moz-columns: 4 100px;
+    columns: 4 100px;
+	
+	-webkit-column-rule: 2px dashed #555;
+    -moz-column-rule: 2px dashed #555;
+    column-rule: 2px dashed #555;
+}
+
+Un truc pour faire des colonnes comme un journal... Pas très utile!*/
+
 /*#element {
    background:url(/projet/images/koala.jpg) no-repeat;
  }*/
