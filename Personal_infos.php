@@ -5,6 +5,7 @@
 	
 		<link href="style.css" media="all" rel="stylesheet" type="text/css" />
 		<meta charset="utf8"/>
+		<?php include('header.php'); ?>
 		<title> Récapitulatif de vos informations </title>	
 	</head>
 	
