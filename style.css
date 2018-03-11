@@ -40,10 +40,11 @@
 	
 	background-color:#9AB388;
 	padding-left: 13px;
-	display : block;
+	display : inline-block;
 	float:center;
 	padding-top : 1px;
 	padding-bottom : 1px;
+	width:100%;
 }
 
 #menu li{
@@ -155,8 +156,8 @@
 
 .degrade{
     background-image: linear-gradient(#CEEA82, #FFFFFF);
-	width : 50 px;
 	height: 100%;
+	min-height: 750px;
 }
 
 /*.section{
