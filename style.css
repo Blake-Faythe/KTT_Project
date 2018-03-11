@@ -1,4 +1,1191 @@
+
 /******* HEADER A LOGO *******/
+
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  border-bottom-style: solid;
+  border-width: 0 0 10px 0;
+  border-bottom-color: green;
+
+}
+
+.nav{
+  width: 100%;
+  height: 20px;
+  background-color: black;
+}
+
+.logo{
+  position:absolute;
+  top:10px;
+  left:20px;
+  width: 20%;
+}
+
+.marque{
+  position: absolute;
+  top:60px;
+  left:100px;
+  width : 80%;
+  font-size: 2em;
+  color : #81D742;
+  font-family: arial ;
+}
+
+/******* MENU EN LISTE *******/
+
+#menulist {
+	
+	background-color:#9AB388;
+	padding-left: 13px;
+	display : block;
+	float:center;
+	margin-top:-20px;
+	padding-top : 1px;
+	padding-bottom : 1px;
+}
+
+#menu li{
+	position:relative;
+	display:inline-block;
+	float:center; /*Le paramètre qui met la liste en horizontal et fait disparaître la couleur de fond pour de mystérieuses raisons | Avec center, le rose réapparaît! */
+	list-style-type:none;
+	font-family:arial;
+}
+
+#menu li a, #menu li a:visited {
+	padding: 12px; /* Détermine la taille des blocs à menu */
+	line-height: 55px;
+	font-size: 18px;
+	text-decoration: none; 
+	color: #000000; 
+	border: 5px solid #FFFFFF;  
+	margin: 12px;
+	border-radius: 18px 8px 18px 8px ;  
+}	
+
+#menu li:hover{
+	color:white; /* Quand on hover, le texte reste noir...*/
+	text-decoration : underline;
+}
+
+
+/*TEST RATE D'UN MENU EN LISTE DEROULANTE*/
+/*
+#menu > li li { background: transparent none; }  
+#menu > li li a { color: #444; }  
+#menu > li li:hover { background:#eee; }  
+
+#menu > li:first-child {  
+
+    border-radius: 8px 0 0 8px; 
+}
+
+#menu > li + li {  
+    border-left: 5px solid #FFFFFF;  
+    border-right: 5px solid #FFFFFF;  
+}  
+
+#menu > li:last-child {  
+    border-right:0;  
+    border-radius: 0 8px 8px 0 ;  
+}  
+
+
+#menu > li:hover {  
+    background-color: #999;  
+}  
+
+#menu ul {  
+    position: absolute;  
+    top: 2em; left:0;  
+    max-height:0em;   
+    margin:0; padding:0;  
+    background-color:#FFFFFF;  
+    overflow:hidden;  
+    transition: 1s max-height 0.3s;  
+    border-radius: 0 0 8px 8px;  
+}  
+
+#menu > li:hover ul {  
+    max-height:13em;  
+}  
+
+*/
+
+
+
+/******* FICHES PRODUITS *******/
+.tableau_produits{
+	align:center;
+	margin: 50px;
+	padding : 20px;
+	text-align:center;
+}
+
+.boite_pdt{
+	border : 3 px black;
+	display : block;
+	margin-left : 50 px;
+	margin-right : 20 px;
+	margin-bottom : 100 px;
+	padding : 15 px;
+	text-align : center;
+	align:center;
+	position : relative;
+	float : left;
+	white-space:nowrap;
+	left : 3em;
+}
+
+.description{
+	text-align: center;
+	font-size: 10 px;
+	color: blue
+}
+
+.img_produit{
+		align: center;
+		border: 2px solid gray;
+		display:block;	
+}
+
+/******* BACKGROUND *******/
+
+.degrade{
+    background-image: linear-gradient(#CEEA82, #FFFFFF);
+    height: 2000px;
+}
+
+/*.section{
+	-webkit-columns: 4 100px;
+    -moz-columns: 4 100px;
+    columns: 4 100px;
+	
+	-webkit-column-rule: 2px dashed #555;
+    -moz-column-rule: 2px dashed #555;
+    column-rule: 2px dashed #555;
+}
+
+Un truc pour faire des colonnes comme un journal... Pas très utile!*/
+
+/*#element {
+   background:url(/projet/images/koala.jpg) no-repeat;
+ }*//******* HEADER A LOGO *******/
+
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  border-bottom-style: solid;
+  border-width: 0 0 10px 0;
+  border-bottom-color: green;
+
+}
+
+.nav{
+  width: 100%;
+  height: 20px;
+  background-color: black;
+}
+
+.logo{
+  position:absolute;
+  top:10px;
+  left:20px;
+  width: 20%;
+}
+
+.marque{
+  position: absolute;
+  top:60px;
+  left:100px;
+  width : 80%;
+  font-size: 2em;
+  color : #81D742;
+  font-family: arial ;
+}
+
+
+/******* FICHES PRODUITS *******/
+.tableau_produits{
+	align:center;
+	margin: 50px;
+	padding : 20px;
+	text-align:center;
+}
+
+.boite_pdt{
+	border : 3 px black;
+	display : block;
+	margin-left : 50 px;
+	margin-right : 20 px;
+	margin-bottom : 100 px;
+	padding : 15 px;
+	text-align : center;
+	align:center;
+	position : relative;
+	float : left;
+	white-space:nowrap;
+	left : 3em;
+}
+
+.description{
+	text-align: center;
+	font-size: 10 px;
+	color: blue
+}
+
+.img_produit{
+		align: center;
+		border: 2px solid gray;
+		display:block;	
+}
+
+/******* BACKGROUND *******/
+
+.degrade{
+    background-image: linear-gradient(#CEEA82, #FFFFFF);
+    height: 2000px;
+}
+
+/*.section{
+	-webkit-columns: 4 100px;
+    -moz-columns: 4 100px;
+    columns: 4 100px;
+	
+	-webkit-column-rule: 2px dashed #555;
+    -moz-column-rule: 2px dashed #555;
+    column-rule: 2px dashed #555;
+}
+
+Un truc pour faire des colonnes comme un journal... Pas très utile!*/
+
+/*#element {
+   background:url(/projet/images/koala.jpg) no-repeat;
+ }*//******* HEADER A LOGO *******/
+
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  border-bottom-style: solid;
+  border-width: 0 0 10px 0;
+  border-bottom-color: green;
+
+}
+
+.nav{
+  width: 100%;
+  height: 20px;
+  background-color: black;
+}
+
+.logo{
+  position:absolute;
+  top:10px;
+  left:20px;
+  width: 20%;
+}
+
+.marque{
+  position: absolute;
+  top:60px;
+  left:100px;
+  width : 80%;
+  font-size: 2em;
+  color : #81D742;
+  font-family: arial ;
+}
+
+
+/******* FICHES PRODUITS *******/
+.tableau_produits{
+	align:center;
+	margin: 50px;
+	padding : 20px;
+	text-align:center;
+}
+
+.boite_pdt{
+	border : 3 px black;
+	display : block;
+	margin-left : 50 px;
+	margin-right : 20 px;
+	margin-bottom : 100 px;
+	padding : 15 px;
+	text-align : center;
+	align:center;
+	position : relative;
+	float : left;
+	white-space:nowrap;
+	left : 3em;
+}
+
+.description{
+	text-align: center;
+	font-size: 10 px;
+	color: blue
+}
+
+.img_produit{
+		align: center;
+		border: 2px solid gray;
+		display:block;	
+}
+
+/******* BACKGROUND *******/
+
+.degrade{
+    background-image: linear-gradient(#CEEA82, #FFFFFF);
+    height: 2000px;
+}
+
+/*.section{
+	-webkit-columns: 4 100px;
+    -moz-columns: 4 100px;
+    columns: 4 100px;
+	
+	-webkit-column-rule: 2px dashed #555;
+    -moz-column-rule: 2px dashed #555;
+    column-rule: 2px dashed #555;
+}
+
+Un truc pour faire des colonnes comme un journal... Pas très utile!*/
+
+/*#element {
+   background:url(/projet/images/koala.jpg) no-repeat;
+ }*//******* HEADER A LOGO *******/
+
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  border-bottom-style: solid;
+  border-width: 0 0 10px 0;
+  border-bottom-color: green;
+
+}
+
+.nav{
+  width: 100%;
+  height: 20px;
+  background-color: black;
+}
+
+.logo{
+  position:absolute;
+  top:10px;
+  left:20px;
+  width: 20%;
+}
+
+.marque{
+  position: absolute;
+  top:60px;
+  left:100px;
+  width : 80%;
+  font-size: 2em;
+  color : #81D742;
+  font-family: arial ;
+}
+
+
+/******* FICHES PRODUITS *******/
+.tableau_produits{
+	align:center;
+	margin: 50px;
+	padding : 20px;
+	text-align:center;
+}
+
+.boite_pdt{
+	border : 3 px black;
+	display : block;
+	margin-left : 50 px;
+	margin-right : 20 px;
+	margin-bottom : 100 px;
+	padding : 15 px;
+	text-align : center;
+	align:center;
+	position : relative;
+	float : left;
+	white-space:nowrap;
+	left : 3em;
+}
+
+.description{
+	text-align: center;
+	font-size: 10 px;
+	color: blue
+}
+
+.img_produit{
+		align: center;
+		border: 2px solid gray;
+		display:block;	
+}
+
+/******* BACKGROUND *******/
+
+.degrade{
+    background-image: linear-gradient(#CEEA82, #FFFFFF);
+    height: 2000px;
+}
+
+/*.section{
+	-webkit-columns: 4 100px;
+    -moz-columns: 4 100px;
+    columns: 4 100px;
+	
+	-webkit-column-rule: 2px dashed #555;
+    -moz-column-rule: 2px dashed #555;
+    column-rule: 2px dashed #555;
+}
+
+Un truc pour faire des colonnes comme un journal... Pas très utile!*/
+
+/*#element {
+   background:url(/projet/images/koala.jpg) no-repeat;
+ }*//******* HEADER A LOGO *******/
+
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  border-bottom-style: solid;
+  border-width: 0 0 10px 0;
+  border-bottom-color: green;
+
+}
+
+.nav{
+  width: 100%;
+  height: 20px;
+  background-color: black;
+}
+
+.logo{
+  position:absolute;
+  top:10px;
+  left:20px;
+  width: 20%;
+}
+
+.marque{
+  position: absolute;
+  top:60px;
+  left:100px;
+  width : 80%;
+  font-size: 2em;
+  color : #81D742;
+  font-family: arial ;
+}
+
+
+/******* FICHES PRODUITS *******/
+.tableau_produits{
+	align:center;
+	margin: 50px;
+	padding : 20px;
+	text-align:center;
+}
+
+.boite_pdt{
+	border : 3 px black;
+	display : block;
+	margin-left : 50 px;
+	margin-right : 20 px;
+	margin-bottom : 100 px;
+	padding : 15 px;
+	text-align : center;
+	align:center;
+	position : relative;
+	float : left;
+	white-space:nowrap;
+	left : 3em;
+}
+
+.description{
+	text-align: center;
+	font-size: 10 px;
+	color: blue
+}
+
+.img_produit{
+		align: center;
+		border: 2px solid gray;
+		display:block;	
+}
+
+/******* BACKGROUND *******/
+
+.degrade{
+    background-image: linear-gradient(#CEEA82, #FFFFFF);
+    height: 2000px;
+}
+
+/*.section{
+	-webkit-columns: 4 100px;
+    -moz-columns: 4 100px;
+    columns: 4 100px;
+	
+	-webkit-column-rule: 2px dashed #555;
+    -moz-column-rule: 2px dashed #555;
+    column-rule: 2px dashed #555;
+}
+
+Un truc pour faire des colonnes comme un journal... Pas très utile!*/
+
+/*#element {
+   background:url(/projet/images/koala.jpg) no-repeat;
+ }*//******* HEADER A LOGO *******/
+
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  border-bottom-style: solid;
+  border-width: 0 0 10px 0;
+  border-bottom-color: green;
+
+}
+
+.nav{
+  width: 100%;
+  height: 20px;
+  background-color: black;
+}
+
+.logo{
+  position:absolute;
+  top:10px;
+  left:20px;
+  width: 20%;
+}
+
+.marque{
+  position: absolute;
+  top:60px;
+  left:100px;
+  width : 80%;
+  font-size: 2em;
+  color : #81D742;
+  font-family: arial ;
+}
+
+
+/******* FICHES PRODUITS *******/
+.tableau_produits{
+	align:center;
+	margin: 50px;
+	padding : 20px;
+	text-align:center;
+}
+
+.boite_pdt{
+	border : 3 px black;
+	display : block;
+	margin-left : 50 px;
+	margin-right : 20 px;
+	margin-bottom : 100 px;
+	padding : 15 px;
+	text-align : center;
+	align:center;
+	position : relative;
+	float : left;
+	white-space:nowrap;
+	left : 3em;
+}
+
+.description{
+	text-align: center;
+	font-size: 10 px;
+	color: blue
+}
+
+.img_produit{
+		align: center;
+		border: 2px solid gray;
+		display:block;	
+}
+
+/******* BACKGROUND *******/
+
+.degrade{
+    background-image: linear-gradient(#CEEA82, #FFFFFF);
+    height: 2000px;
+}
+
+/*.section{
+	-webkit-columns: 4 100px;
+    -moz-columns: 4 100px;
+    columns: 4 100px;
+	
+	-webkit-column-rule: 2px dashed #555;
+    -moz-column-rule: 2px dashed #555;
+    column-rule: 2px dashed #555;
+}
+
+Un truc pour faire des colonnes comme un journal... Pas très utile!*/
+
+/*#element {
+   background:url(/projet/images/koala.jpg) no-repeat;
+ }*//******* HEADER A LOGO *******/
+
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  border-bottom-style: solid;
+  border-width: 0 0 10px 0;
+  border-bottom-color: green;
+
+}
+
+.nav{
+  width: 100%;
+  height: 20px;
+  background-color: black;
+}
+
+.logo{
+  position:absolute;
+  top:10px;
+  left:20px;
+  width: 20%;
+}
+
+.marque{
+  position: absolute;
+  top:60px;
+  left:100px;
+  width : 80%;
+  font-size: 2em;
+  color : #81D742;
+  font-family: arial ;
+}
+
+
+/******* FICHES PRODUITS *******/
+.tableau_produits{
+	align:center;
+	margin: 50px;
+	padding : 20px;
+	text-align:center;
+}
+
+.boite_pdt{
+	border : 3 px black;
+	display : block;
+	margin-left : 50 px;
+	margin-right : 20 px;
+	margin-bottom : 100 px;
+	padding : 15 px;
+	text-align : center;
+	align:center;
+	position : relative;
+	float : left;
+	white-space:nowrap;
+	left : 3em;
+}
+
+.description{
+	text-align: center;
+	font-size: 10 px;
+	color: blue
+}
+
+.img_produit{
+		align: center;
+		border: 2px solid gray;
+		display:block;	
+}
+
+/******* BACKGROUND *******/
+
+.degrade{
+    background-image: linear-gradient(#CEEA82, #FFFFFF);
+    height: 2000px;
+}
+
+/*.section{
+	-webkit-columns: 4 100px;
+    -moz-columns: 4 100px;
+    columns: 4 100px;
+	
+	-webkit-column-rule: 2px dashed #555;
+    -moz-column-rule: 2px dashed #555;
+    column-rule: 2px dashed #555;
+}
+
+Un truc pour faire des colonnes comme un journal... Pas très utile!*/
+
+/*#element {
+   background:url(/projet/images/koala.jpg) no-repeat;
+ }*//******* HEADER A LOGO *******/
+
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  border-bottom-style: solid;
+  border-width: 0 0 10px 0;
+  border-bottom-color: green;
+
+}
+
+.nav{
+  width: 100%;
+  height: 20px;
+  background-color: black;
+}
+
+.logo{
+  position:absolute;
+  top:10px;
+  left:20px;
+  width: 20%;
+}
+
+.marque{
+  position: absolute;
+  top:60px;
+  left:100px;
+  width : 80%;
+  font-size: 2em;
+  color : #81D742;
+  font-family: arial ;
+}
+
+
+/******* FICHES PRODUITS *******/
+.tableau_produits{
+	align:center;
+	margin: 50px;
+	padding : 20px;
+	text-align:center;
+}
+
+.boite_pdt{
+	border : 3 px black;
+	display : block;
+	margin-left : 50 px;
+	margin-right : 20 px;
+	margin-bottom : 100 px;
+	padding : 15 px;
+	text-align : center;
+	align:center;
+	position : relative;
+	float : left;
+	white-space:nowrap;
+	left : 3em;
+}
+
+.description{
+	text-align: center;
+	font-size: 10 px;
+	color: blue
+}
+
+.img_produit{
+		align: center;
+		border: 2px solid gray;
+		display:block;	
+}
+
+/******* BACKGROUND *******/
+
+.degrade{
+    background-image: linear-gradient(#CEEA82, #FFFFFF);
+    height: 2000px;
+}
+
+/*.section{
+	-webkit-columns: 4 100px;
+    -moz-columns: 4 100px;
+    columns: 4 100px;
+	
+	-webkit-column-rule: 2px dashed #555;
+    -moz-column-rule: 2px dashed #555;
+    column-rule: 2px dashed #555;
+}
+
+Un truc pour faire des colonnes comme un journal... Pas très utile!*/
+
+/*#element {
+   background:url(/projet/images/koala.jpg) no-repeat;
+ }*//******* HEADER A LOGO *******/
+
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  border-bottom-style: solid;
+  border-width: 0 0 10px 0;
+  border-bottom-color: green;
+
+}
+
+.nav{
+  width: 100%;
+  height: 20px;
+  background-color: black;
+}
+
+.logo{
+  position:absolute;
+  top:10px;
+  left:20px;
+  width: 20%;
+}
+
+.marque{
+  position: absolute;
+  top:60px;
+  left:100px;
+  width : 80%;
+  font-size: 2em;
+  color : #81D742;
+  font-family: arial ;
+}
+
+
+/******* FICHES PRODUITS *******/
+.tableau_produits{
+	align:center;
+	margin: 50px;
+	padding : 20px;
+	text-align:center;
+}
+
+.boite_pdt{
+	border : 3 px black;
+	display : block;
+	margin-left : 50 px;
+	margin-right : 20 px;
+	margin-bottom : 100 px;
+	padding : 15 px;
+	text-align : center;
+	align:center;
+	position : relative;
+	float : left;
+	white-space:nowrap;
+	left : 3em;
+}
+
+.description{
+	text-align: center;
+	font-size: 10 px;
+	color: blue
+}
+
+.img_produit{
+		align: center;
+		border: 2px solid gray;
+		display:block;	
+}
+
+/******* BACKGROUND *******/
+
+.degrade{
+    background-image: linear-gradient(#CEEA82, #FFFFFF);
+    height: 2000px;
+}
+
+/*.section{
+	-webkit-columns: 4 100px;
+    -moz-columns: 4 100px;
+    columns: 4 100px;
+	
+	-webkit-column-rule: 2px dashed #555;
+    -moz-column-rule: 2px dashed #555;
+    column-rule: 2px dashed #555;
+}
+
+Un truc pour faire des colonnes comme un journal... Pas très utile!*/
+
+/*#element {
+   background:url(/projet/images/koala.jpg) no-repeat;
+ }*//******* HEADER A LOGO *******/
+
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  border-bottom-style: solid;
+  border-width: 0 0 10px 0;
+  border-bottom-color: green;
+
+}
+
+.nav{
+  width: 100%;
+  height: 20px;
+  background-color: black;
+}
+
+.logo{
+  position:absolute;
+  top:10px;
+  left:20px;
+  width: 20%;
+}
+
+.marque{
+  position: absolute;
+  top:60px;
+  left:100px;
+  width : 80%;
+  font-size: 2em;
+  color : #81D742;
+  font-family: arial ;
+}
+
+
+/******* FICHES PRODUITS *******/
+.tableau_produits{
+	align:center;
+	margin: 50px;
+	padding : 20px;
+	text-align:center;
+}
+
+.boite_pdt{
+	border : 3 px black;
+	display : block;
+	margin-left : 50 px;
+	margin-right : 20 px;
+	margin-bottom : 100 px;
+	padding : 15 px;
+	text-align : center;
+	align:center;
+	position : relative;
+	float : left;
+	white-space:nowrap;
+	left : 3em;
+}
+
+.description{
+	text-align: center;
+	font-size: 10 px;
+	color: blue
+}
+
+.img_produit{
+		align: center;
+		border: 2px solid gray;
+		display:block;	
+}
+
+/******* BACKGROUND *******/
+
+.degrade{
+    background-image: linear-gradient(#CEEA82, #FFFFFF);
+    height: 2000px;
+}
+
+/*.section{
+	-webkit-columns: 4 100px;
+    -moz-columns: 4 100px;
+    columns: 4 100px;
+	
+	-webkit-column-rule: 2px dashed #555;
+    -moz-column-rule: 2px dashed #555;
+    column-rule: 2px dashed #555;
+}
+
+Un truc pour faire des colonnes comme un journal... Pas très utile!*/
+
+/*#element {
+   background:url(/projet/images/koala.jpg) no-repeat;
+ }*//******* HEADER A LOGO *******/
+
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  border-bottom-style: solid;
+  border-width: 0 0 10px 0;
+  border-bottom-color: green;
+
+}
+
+.nav{
+  width: 100%;
+  height: 20px;
+  background-color: black;
+}
+
+.logo{
+  position:absolute;
+  top:10px;
+  left:20px;
+  width: 20%;
+}
+
+.marque{
+  position: absolute;
+  top:60px;
+  left:100px;
+  width : 80%;
+  font-size: 2em;
+  color : #81D742;
+  font-family: arial ;
+}
+
+
+/******* FICHES PRODUITS *******/
+.tableau_produits{
+	align:center;
+	margin: 50px;
+	padding : 20px;
+	text-align:center;
+}
+
+.boite_pdt{
+	border : 3 px black;
+	display : block;
+	margin-left : 50 px;
+	margin-right : 20 px;
+	margin-bottom : 100 px;
+	padding : 15 px;
+	text-align : center;
+	align:center;
+	position : relative;
+	float : left;
+	white-space:nowrap;
+	left : 3em;
+}
+
+.description{
+	text-align: center;
+	font-size: 10 px;
+	color: blue
+}
+
+.img_produit{
+		align: center;
+		border: 2px solid gray;
+		display:block;	
+}
+
+/******* BACKGROUND *******/
+
+.degrade{
+    background-image: linear-gradient(#CEEA82, #FFFFFF);
+    height: 2000px;
+}
+
+/*.section{
+	-webkit-columns: 4 100px;
+    -moz-columns: 4 100px;
+    columns: 4 100px;
+	
+	-webkit-column-rule: 2px dashed #555;
+    -moz-column-rule: 2px dashed #555;
+    column-rule: 2px dashed #555;
+}
+
+Un truc pour faire des colonnes comme un journal... Pas très utile!*/
+
+/*#element {
+   background:url(/projet/images/koala.jpg) no-repeat;
+ }*//******* HEADER A LOGO *******/
+
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  border-bottom-style: solid;
+  border-width: 0 0 10px 0;
+  border-bottom-color: green;
+
+}
+
+.nav{
+  width: 100%;
+  height: 20px;
+  background-color: black;
+}
+
+.logo{
+  position:absolute;
+  top:10px;
+  left:20px;
+  width: 20%;
+}
+
+.marque{
+  position: absolute;
+  top:60px;
+  left:100px;
+  width : 80%;
+  font-size: 2em;
+  color : #81D742;
+  font-family: arial ;
+}
+
+
+/******* FICHES PRODUITS *******/
+.tableau_produits{
+	align:center;
+	margin: 50px;
+	padding : 20px;
+	text-align:center;
+}
+
+.boite_pdt{
+	border : 3 px black;
+	display : block;
+	margin-left : 50 px;
+	margin-right : 20 px;
+	margin-bottom : 100 px;
+	padding : 15 px;
+	text-align : center;
+	align:center;
+	position : relative;
+	float : left;
+	white-space:nowrap;
+	left : 3em;
+}
+
+.description{
+	text-align: center;
+	font-size: 10 px;
+	color: blue
+}
+
+.img_produit{
+		align: center;
+		border: 2px solid gray;
+		display:block;	
+}
+
+/******* BACKGROUND *******/
+
+.degrade{
+    background-image: linear-gradient(#CEEA82, #FFFFFF);
+    height: 2000px;
+}
+
+/*.section{
+	-webkit-columns: 4 100px;
+    -moz-columns: 4 100px;
+    columns: 4 100px;
+	
+	-webkit-column-rule: 2px dashed #555;
+    -moz-column-rule: 2px dashed #555;
+    column-rule: 2px dashed #555;
+}
+
+Un truc pour faire des colonnes comme un journal... Pas très utile!*/
+
+/*#element {
+   background:url(/projet/images/koala.jpg) no-repeat;
+ }*//******* HEADER A LOGO *******/
 
 .header {
   width: 100%;
