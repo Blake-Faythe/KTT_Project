@@ -43,16 +43,17 @@
 	display : inline-block;
 	float:center;
 	padding-top : 1px;
-	padding-bottom : 1px;
+	padding-bottom : 10px;
 	width:100%;
 }
 
 #menu li{
 	position:relative;
 	display:inline-block;
-	float:center; /*Le paramètre qui met la liste en horizontal et fait disparaître la couleur de fond pour de mystérieuses raisons | Avec center, le rose réapparaît! */
+	float:left; /*Le paramètre qui met la liste en horizontal et fait disparaître la couleur de fond pour de mystérieuses raisons | Avec center, le rose réapparaît! */
 	list-style-type:none;
 	font-family:arial;
+	align:center;
 }
 
 #menu li a, #menu li a:visited {
@@ -70,7 +71,7 @@
 	color:white; /* Quand on hover, le texte reste noir...*/
 	text-decoration : underline;
 }
-
+	
 
 /*TEST RATE D'UN MENU EN LISTE DEROULANTE*/
 /*
@@ -120,7 +121,7 @@
 /******* FICHES PRODUITS *******/
 .tableau_produits{
 	align:center;
-	margin: 50px;
+	margin: 20px;
 	padding : 20px;
 	text-align:center;
 }
@@ -130,7 +131,7 @@
 	display : block;
 	margin-left : 50 px;
 	margin-right : 20 px;
-	margin-bottom : 100 px;
+	margin-bottom : 50 px;
 	padding : 15 px;
 	text-align : center;
 	align:center;
@@ -160,6 +161,100 @@
 	min-height: 750px;
 }
 
+/******* TITRES *******/
+
+h1 {
+	background-color : white;
+	color:#9AB388;
+	font-family:arial;
+	margin-left:0px;
+	padding:10px;
+	padding-left : 45px;
+	border-radius: 18px 2px 18px 2px;
+	border-width:2px;
+	border-color:#9AB388;
+	
+}
+
+/******* IMAGE_INDEX *******/
+.imgindex{
+	
+	display:block;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:-5px;
+	max-width:2500;
+	margin-bottom:-3px;
+
+	width:100%;
+	height:auto;
+	
+	
+	
+}
+
+.bandeauindex{
+	
+	text-align:center;
+	padding-top:30px;
+	position:absolute;
+	top: 30%; 
+	left: 0; 
+	width: 100%; 
+	font-size:9vw;
+	font-family:Arial;
+	
+	background-color:#FFFFFF;
+	opacity:0.85;
+}
+
+.produitindex1, .produitindex2, .produitindex3, .produitindex1 a:visited, .produitindex2 a:visited, .produitindex3 a:visited
+{
+	float:left;
+	margin-top:2%;
+	width:33.33%;
+	color:black;
+	font-size:2.5vw;
+	background-color:#C8C8C8;
+	padding-top:10px;
+	padding-bottom:10px;
+	text-decoration:none;
+
+}
+
+.produitindex1 a:hover, .produitindex2 a:hover, .produitindex3 a:hover {
+
+	position:relative;
+	background-color:#FFFFFF;
+	text-decoration:none;
+	padding-right:3vw;
+	padding-left:3vw;
+	padding-bottom:0.2vw;
+	padding-top:0.2vw;
+}
+
+.produitindex2
+{
+	position:static;
+}	
+
+/******* FOOTER *******/
+.footer{
+	
+	background-color:#FFFFFF;
+
+	font-family:arial;
+	text-align:center;
+	font-size:0.9vw;
+	margin-bottom:5px;
+	border-radius: 10px 1px 10px 1px ;  
+	border-width:2px;
+	border-color:#9AB388;
+	border-style:solid;
+}
+
+
 /*.section{
 	-webkit-columns: 4 100px;
     -moz-columns: 4 100px;
@@ -171,6 +266,41 @@
 }
 
 Un truc pour faire des colonnes comme un journal... Pas très utile!*/
+
+/******* TEST D'UN MENU DEROULANT *******/
+
+.bandeaumenu2 {
+
+	width:100%;
+	height:3vw;
+	margin-left:auto;
+	margin-right:auto;
+	
+	background-color:#9AB388;
+	
+}
+
+#listemenu2 {
+	position:relative;
+	font-family:arial;
+	list-style-type:none;
+	text-align:center;
+	}
+
+#listemenu2 li {
+	display:inline-block;
+
+}
+
+deroulage {
+	background-color:blue;
+	padding:10px;
+	display:none;
+}
+
+bouton:hover + deroulage {
+	display:block;
+}
 
 /*#element {
    background:url(/projet/images/koala.jpg) no-repeat;
