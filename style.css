@@ -2,39 +2,334 @@
 /******* HEADER A LOGO *******/
 
 .header {
-  width: 100%;
-  height: 100px;
-  background-color: white;
-  border-bottom-style: solid;
-  border-width: 0 0 10px 0;
-  border-bottom-color: green;
+	width:100%;
+	height:100px;
+	
+	background-color:white;
 
+	border-bottom-style:solid;
+	border-width:0 0 10px 0;
+	border-bottom-color:green;
 }
 
 .nav{
-  width: 100%;
-  height: 20px;
-  background-color: black;
+	width:100%;
+	height:20px;
+  
+	background-color:black;
 }
 
 .logo{
-  position:absolute;
-  top:10px;
-  left:20px;
-  width: 20%;
+	position:absolute;
+	top:10px;
+	left:20px;
+  
+	width:20%;
 }
 
 .marque{
-  position: absolute;
-  top:60px;
-  left:100px;
-  width : 80%;
-  font-size: 2em;
-  color : #81D742;
-  font-family: arial ;
+	position:absolute;
+	top:60px;
+	left:100px;
+  
+	width:80%;
+  
+	font-size:2em;
+	color:#81D742;
+	font-family:arial;
 }
 
-/******* MENU EN LISTE *******/
+
+/******* FICHES PRODUITS *******/
+
+.tableau_produits{
+	align:center;
+	
+	margin:20px;
+	
+	padding:20px;
+	
+	text-align:center;
+}
+
+.boite_pdt{
+	position:relative;
+	left:3em;
+
+	
+	display:block;
+	
+	margin-left:50 px;
+	margin-right:20 px;
+	margin-bottom:50 px;
+	
+	padding:15 px;
+	
+	text-align:center;
+	align:center;
+
+	float:left;
+	white-space:nowrap;
+	
+	border:3 px black;
+}
+
+.description{
+	text-align: center;
+	font-size: 10 px;
+	color: blue
+}
+
+.img_produit{
+	align: center;
+	
+	display:block;	
+	
+	border: 2px solid gray;
+}
+
+
+/******* BACKGROUND *******/
+
+.degrade{
+    height: 100%;
+	min-height: 750px;
+	
+	background-image: linear-gradient(#CEEA82, #FFFFFF);
+}
+
+
+/******* TITRES *******/
+
+.imgtitre {
+	position:relative;
+	
+	display:block;	
+	width:100%;
+	height:auto;
+	max-width:2500;
+	
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:-3px;
+}
+
+h1 {
+	text-align:center;
+	padding-top:2vw;
+	padding-bottom:2vw;
+
+	width: 100%; 
+	font-size:5vw;
+	font-family:Arial;
+	
+	position:absolute;
+	margin:auto;
+	margin-top : -15vw;
+	
+	background-color:#FFFFFF;
+	opacity:0.85;
+	
+	border-style:solid;
+	border-radius: 4.3vw 0.7vw 4.3vw 0.7vw ; 
+	border-width:0.1vw;
+	border-color:#FFFFFF;
+}
+
+
+/******* IMAGE_INDEX *******/
+.imgindex{
+	position:relative;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	max-width:2500;
+	margin-bottom:-3px;
+	
+	width:100%;
+	height:auto;
+}
+
+.bandeauindex{
+	position:absolute;
+	top: 30%; 
+	left: 0; 
+	
+	padding-top:30px;
+	width: 100%; 
+	
+	font-size:9vw;
+	font-family:Arial;
+	text-align:center;
+	background-color:#FFFFFF;
+	opacity:0.85;
+}
+
+.produitindex1, .produitindex2, .produitindex3{
+	float:left;
+	margin-top:2%;
+	width:33.33%;
+		
+	padding-top:10px;
+	padding-bottom:10px;
+	
+	color:#000000;
+	font-size:2.5vw;
+	background-color:#C8C8C8;
+	
+	text-decoration:none;
+}
+
+.produitindex1 a:visited, .produitindex2 a:visited, .produitindex3 a:visited
+
+{
+	color:#000000;
+	
+}
+
+.produitindex1 a:hover, .produitindex2 a:hover, .produitindex3 a:hover {
+	position:relative;
+	
+	background-color:#FFFFFF;
+	text-decoration:none;
+	
+	padding-right:3vw;
+	padding-left:3vw;
+	padding-bottom:0.2vw;
+	padding-top:0.2vw;
+	
+	border-style:solid;
+	border-radius: 18px 6px 18px 6px ; 
+	border-width:0.1vw;
+	border-color:#FFFFFF;
+}
+
+.produitindex2
+{
+	position:static;
+}	
+
+
+/******* FOOTER *******/
+
+.footer{
+	background-color:#FFFFFF;
+
+	font-family:arial;
+	text-align:center;
+	font-size:0.9vw;
+	
+	margin-bottom:5px;
+	
+	border-radius: 10px 1px 10px 2px ;  
+	border-width:2px;
+	border-color:#9AB388;
+	border-style:solid;
+}
+
+
+/******* TEST D'UN MENU DEROULANT *******/
+
+.bandeaumenu {
+	position:relative;
+	width:100%;
+	height:4.5vw;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:-1.5vw;
+	
+	background-color:#9AB388;
+}
+
+#listemenu {
+	position:relative;
+	left:18%; /*Voir comment centrer tout ça */
+	right:17%;
+	
+	padding-top:0.8vw;
+	padding-bottom:0.8vw;
+	
+	font-family:arial;
+	font-size:1.5vw;
+	
+	list-style-type:none;
+	text-align:center;
+}
+
+#listemenu li  a, #listemenu li  a:visited{
+	float:left;
+	position:relative;
+	display:inline-block;
+	
+	padding-left:1.1vw;
+	padding-right:1.1vw;
+	padding-bottom:0.3vw;
+	padding-top:0.3vw;
+		
+	margin-left:1vw;
+	margin-right:1vw;
+	
+	border-style:solid;
+	border-radius: 18px 5px 18px 5px ; 
+	border-width:0.3vw;
+	border-color:#FFFFFF;
+	
+	opacity:0.9;
+	text-decoration:none;
+	color:#000000;
+}
+
+#listemenu li  a:hover{
+
+background-color:#FFFFFF;
+}
+
+/* ENCORE UN ESSAI POUR UN DEROULANT
+
+#listemenu li :hover + li{
+	display:block;
+	background-color:green;
+}
+
+#listesousmenu{
+	
+	display:none;
+	position:relative;
+	background-color:blue;
+	
+	
+	]
+
+deroulage {
+	background-color:blue;
+	padding:10px;
+	display:none;
+}
+
+bouton:hover + deroulage {
+	display:block;
+}
+
+*/
+
+/*#element {
+   background:url(/projet/images/koala.jpg) no-repeat;
+ } */
+ 
+/*.section{
+	-webkit-columns: 4 100px;
+    -moz-columns: 4 100px;
+    columns: 4 100px;
+	
+	-webkit-column-rule: 2px dashed #555;
+    -moz-column-rule: 2px dashed #555;
+    column-rule: 2px dashed #555;
+}
+
+Un truc pour faire des colonnes comme un journal... Pas très utile!*/
+
+
+/* ANCIEN MENU EN LISTE 
 
 #menulist {
 	
@@ -50,14 +345,14 @@
 #menu li{
 	position:relative;
 	display:inline-block;
-	float:left; /*Le paramètre qui met la liste en horizontal et fait disparaître la couleur de fond pour de mystérieuses raisons | Avec center, le rose réapparaît! */
+	float:left; Le paramètre qui met la liste en horizontal et fait disparaître la couleur de fond pour de mystérieuses raisons | Avec center, le rose réapparaît! 
 	list-style-type:none;
 	font-family:arial;
 	align:center;
 }
 
 #menu li a, #menu li a:visited {
-	padding: 12px; /* Détermine la taille des blocs à menu */
+	padding: 12px; Détermine la taille des blocs à menu 
 	line-height: 55px;
 	font-size: 18px;
 	text-decoration: none; 
@@ -68,10 +363,10 @@
 }	
 
 #menu li:hover{
-	color:white; /* Quand on hover, le texte reste noir...*/
+	color:white;  Quand on hover, le texte reste noir...
 	text-decoration : underline;
 }
-	
+*/	
 
 /*TEST RATE D'UN MENU EN LISTE DEROULANTE*/
 /*
@@ -117,191 +412,3 @@
 */
 
 
-
-/******* FICHES PRODUITS *******/
-.tableau_produits{
-	align:center;
-	margin: 20px;
-	padding : 20px;
-	text-align:center;
-}
-
-.boite_pdt{
-	border : 3 px black;
-	display : block;
-	margin-left : 50 px;
-	margin-right : 20 px;
-	margin-bottom : 50 px;
-	padding : 15 px;
-	text-align : center;
-	align:center;
-	position : relative;
-	float : left;
-	white-space:nowrap;
-	left : 3em;
-}
-
-.description{
-	text-align: center;
-	font-size: 10 px;
-	color: blue
-}
-
-.img_produit{
-		align: center;
-		border: 2px solid gray;
-		display:block;	
-}
-
-/******* BACKGROUND *******/
-
-.degrade{
-    background-image: linear-gradient(#CEEA82, #FFFFFF);
-	height: 100%;
-	min-height: 750px;
-}
-
-/******* TITRES *******/
-
-h1 {
-	background-color : white;
-	color:#9AB388;
-	font-family:arial;
-	margin-left:0px;
-	padding:10px;
-	padding-left : 45px;
-	border-radius: 18px 2px 18px 2px;
-	border-width:2px;
-	border-color:#9AB388;
-	
-}
-
-/******* IMAGE_INDEX *******/
-.imgindex{
-	
-	display:block;
-	position:relative;
-	margin-left:auto;
-	margin-right:auto;
-	margin-top:-5px;
-	max-width:2500;
-	margin-bottom:-3px;
-
-	width:100%;
-	height:auto;
-	
-	
-	
-}
-
-.bandeauindex{
-	
-	text-align:center;
-	padding-top:30px;
-	position:absolute;
-	top: 30%; 
-	left: 0; 
-	width: 100%; 
-	font-size:9vw;
-	font-family:Arial;
-	
-	background-color:#FFFFFF;
-	opacity:0.85;
-}
-
-.produitindex1, .produitindex2, .produitindex3, .produitindex1 a:visited, .produitindex2 a:visited, .produitindex3 a:visited
-{
-	float:left;
-	margin-top:2%;
-	width:33.33%;
-	color:black;
-	font-size:2.5vw;
-	background-color:#C8C8C8;
-	padding-top:10px;
-	padding-bottom:10px;
-	text-decoration:none;
-
-}
-
-.produitindex1 a:hover, .produitindex2 a:hover, .produitindex3 a:hover {
-
-	position:relative;
-	background-color:#FFFFFF;
-	text-decoration:none;
-	padding-right:3vw;
-	padding-left:3vw;
-	padding-bottom:0.2vw;
-	padding-top:0.2vw;
-}
-
-.produitindex2
-{
-	position:static;
-}	
-
-/******* FOOTER *******/
-.footer{
-	
-	background-color:#FFFFFF;
-
-	font-family:arial;
-	text-align:center;
-	font-size:0.9vw;
-	margin-bottom:5px;
-	border-radius: 10px 1px 10px 1px ;  
-	border-width:2px;
-	border-color:#9AB388;
-	border-style:solid;
-}
-
-
-/*.section{
-	-webkit-columns: 4 100px;
-    -moz-columns: 4 100px;
-    columns: 4 100px;
-	
-	-webkit-column-rule: 2px dashed #555;
-    -moz-column-rule: 2px dashed #555;
-    column-rule: 2px dashed #555;
-}
-
-Un truc pour faire des colonnes comme un journal... Pas très utile!*/
-
-/******* TEST D'UN MENU DEROULANT *******/
-
-.bandeaumenu2 {
-
-	width:100%;
-	height:3vw;
-	margin-left:auto;
-	margin-right:auto;
-	
-	background-color:#9AB388;
-	
-}
-
-#listemenu2 {
-	position:relative;
-	font-family:arial;
-	list-style-type:none;
-	text-align:center;
-	}
-
-#listemenu2 li {
-	display:inline-block;
-
-}
-
-deroulage {
-	background-color:blue;
-	padding:10px;
-	display:none;
-}
-
-bouton:hover + deroulage {
-	display:block;
-}
-
-/*#element {
-   background:url(/projet/images/koala.jpg) no-repeat;
- }
