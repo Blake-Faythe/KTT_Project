@@ -16,33 +16,22 @@
       <div class="marque">   Koala Tea-Time       </div>
     </div>
 	<div class="page">
-    <div class="nav">
-	</div>
+		<div class="nav">
+		</div>
 
-		<div class="bandeaumenu2"> 
-			<div class="centrerlaliste">
-			<ul id="listemenu2">
+		<div class="bandeaumenu"> 
+
+			<ul id="listemenu">
 					<li> <a href="index_.php"> Accueil </a> </li>
 					
 					<li> <a href="urlbidon.com">Nos produits </a> </li>
-						<ul id="listesousmenu2">
-							<li> <a href="urlbidon.com">Nos thés </a> </li>
-							<li> <a href="urlbidon.com">Nos cafés </a> </li>
-							<li> <a href="urlbidon.com">Nos gourmandises </a> </li>
-						</ul>	
 				
 					<li> <a href="urlbidon.com">Qui sommes-nous? </a> </li>
 					
 					<li><a href="urlbidon.com">Mon compte </a> </li>
-				<!--	<ul>
-							<li> <a href="urlbidon.com">Mes informations </a> </li>
-							<li> <a href="urlbidon.com">Se déconnecter </a> </li>
-						</ul>	
-				-->
 			</ul>
-			</div>
-		
 			
-	</div>		
+		</div>	
+	</div>
 	</body>
 </html>
