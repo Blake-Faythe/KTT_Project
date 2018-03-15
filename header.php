@@ -18,19 +18,19 @@
 	<div class="page">
     <div class="nav">
 	</div>
-	<br/>
-	<!-- Menu en liste horizontale -->
-		<div id="menulist">
-				<ul id="menu">
-					<li> <a href="urlbidon.com"> Accueil </a> </li>
+
+		<div class="bandeaumenu2"> 
+			<div class="centrerlaliste">
+			<ul id="listemenu2">
+					<li> <a href="index_.php"> Accueil </a> </li>
 					
 					<li> <a href="urlbidon.com">Nos produits </a> </li>
-				<!--	<ul>
+						<ul id="listesousmenu2">
 							<li> <a href="urlbidon.com">Nos thés </a> </li>
 							<li> <a href="urlbidon.com">Nos cafés </a> </li>
 							<li> <a href="urlbidon.com">Nos gourmandises </a> </li>
 						</ul>	
-				-->
+				
 					<li> <a href="urlbidon.com">Qui sommes-nous? </a> </li>
 					
 					<li><a href="urlbidon.com">Mon compte </a> </li>
@@ -39,9 +39,8 @@
 							<li> <a href="urlbidon.com">Se déconnecter </a> </li>
 						</ul>	
 				-->
-					<li><a href="urlbidon.com">Zbay </a> </li>
-				</ul>
-		</div>		
+			</ul>
+			</div>
 		
 			
 	</div>		
