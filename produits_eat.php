@@ -16,10 +16,36 @@
 				<h1>Nos gourmandises succulentes ♥</h1>
 			</div>
 
-			<br/>
-			<br/>
-			<br/>
-			<br/>
+			<div class="backproducts"> 
+				<div class="productbox"> 
+					<div class="imgproduct"> <img src="Images\green_tea.jpg" width="100%"/>
+					</div>
+					<div class="titreproduct">Produit 1</div>
+					<div class="descriptionproduct"> Description du produit 1 </div>
+				</div>
+				
+				<div class="productbox"> 
+					<div class="imgproduct"> <img src="Images\green_tea.jpg" width="100%"/>
+					</div>
+					<div class="titreproduct">Produit 2</div>
+					<div class="descriptionproduct"> Description du produit 2 </div>
+				</div>
+				
+				<div class="productbox"> 
+					<div class="imgproduct"> <img src="Images\green_tea.jpg" width="100%"/>
+					</div>
+					<div class="titreproduct">Produit 3</div>
+					<div class="descriptionproduct"> Description du produit 3 </div>
+				</div>
+				
+				<div class="productbox"> 
+					<div class="imgproduct"> <img src="Images\green_tea.jpg" width="100%"/>
+					</div>
+					<div class="titreproduct">Produit 4</div>
+					<div class="descriptionproduct"> Description du produit 4 </div>
+				</div>
+				
+			</div>
 		
 				<?php include('footer.php'); ?>
 		
